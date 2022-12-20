@@ -71,15 +71,18 @@
                     <pre class="code">
                       <code class="code">
             class SmallestIntegerFinder {
-            findSmallestInt(args) {
-            let smallestElement = args[0];
-            for (const arg of args){
-            if (smallestElement > arg){
-            smallestElement = arg;
-            }
-            }
-            return smallestElement;
-            }
+
+             findSmallestInt(args) {
+
+                let smallestElement = args[0];
+                for (const arg of args){
+
+                 if (smallestElement > arg){
+                 smallestElement = arg;
+                }
+              }
+              return smallestElement;
+             }
             }
                         </code>
                     </pre>
@@ -89,14 +92,16 @@
                 <img src="img/photo.jpg" alt="my photo" class="photo">
                 <div class="contacts" id="Contacts">
                     <h2 class="sidebar-title">Contacts</h2>
-                    <p>
-                        <span class="contact-type">phone:</span>
-                        <a href="tel:+380673991826" class="contact-link">+38 067 399 18 26</a>
-                    </p>
-                    <p>
-                        <span class="contact-type">e-mail:</span>
-                        <a href="mailto:irinkah2203@gmail.com" class="contact-link">irinkah2203@gmail.com</a>
-                    </p>
+                    <ul class="contact-list">
+                        <li class="contact-list">
+                            <span class="contact-type">phone:</span>
+                            <a href="tel:+380673991826" class="contact-link">+38 067 399 18 26</a>
+                        </li>
+                        <li class="contact-list">
+                            <span class="contact-type">e-mail:</span>
+                            <a href="mailto:irinkah2203@gmail.com" class="contact-link">irinkah2203@gmail.com</a>
+                        </li>
+                    </ul>
                     <h2 class="sidebar-title" id="tech-skills">Tech skills that I plan to master</h2>
                     <ul class="tech-skills-list">
                         <li><span class="tech-skills-item">HTML5</span></li>
