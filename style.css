@@ -1,0 +1,178 @@
+body {
+  margin: 0 auto; 
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  background-image: url(img/fon5.jpg);
+  background-size: cover;
+}
+
+.CV {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header {
+  height: 50px;
+  padding-top: 10px;
+  background-color: #595959;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 10px;
+  font-style: oblique;
+  text-decoration: none;
+  color: #fbbdc8;
+}
+
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.sidebar {
+  width: 30%;
+  background-color: #cdaff0;
+}
+
+.photo {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.contacts {
+  margin-left: 25px;
+  margin-bottom: 25px;
+}
+
+.contact-list{
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-title {
+  margin: 10px 0;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #6e6a63;
+}
+
+.contact-type {
+  margin-right: 10px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #5c3c46;
+}
+
+.contact-link {
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #151d12;
+}
+
+.tech-skills-list,
+.soft-skills-list {
+  padding: 0;
+  margin-left: 18px;
+  color: #da399c;
+}
+
+.tech-skills-item,
+.soft-skills-item {
+  color: #6e6a63;
+}
+
+.project-link {
+  text-decoration: none;
+  color: #6e6a63;
+}
+
+.main-content {
+  width: 70%;
+  padding: 8% 5%;
+  background-color: #ffebff;
+}
+
+.about-position {
+  margin-bottom: 20px;
+  font-weight: 700;
+  line-height: 17px;
+  color: #000000;
+}
+
+.about-name {
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  color: #000000;
+}
+
+.about-description {
+  width: 70%;
+  line-height: 24px;
+  color: #595959;
+}
+
+.work-position {
+  margin: 0 0 10px 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.work-list {
+  list-style-image: url(img/2.png);
+}
+
+.title {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.code {
+  background-color: #e7dcdc;
+ }
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #595959;
+}
+
+.school-link {
+  width: 120px;
+  padding: 5px 5% 5px 30%;
+  margin: 15px;
+  border-top-right-radius: 80px;
+  border-bottom-left-radius: 80px;
+  background-color: #fbbdc8;
+}
+
+.logo {
+  width: 50px;
+  margin-top: 15px;
+}
+
+.copyright {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #2e2c2c;
+}
+
