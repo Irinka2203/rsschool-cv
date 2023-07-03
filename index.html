@@ -1,141 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <title>My CV</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>My CV</title>
 </head>
+
 <body>
-    <div class="CV">
-        <header class="header">
-            <nav>
-                <ul class="nav-list">
-                    <li class="nav-item"><a class="nav-link" href="#contacts">Contacts</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#summary">Summary</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#work-experience">Work experience</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#tech-skills">Tech skills</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#soft-skills">Soft skills</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#languages">Languages</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#project">Project</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#code-example">Code example</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main class="main">
-            <div class="main-content">
-                <section>
-                    <h1 class="about-name">Iryna Khomukha</h1>
-                    <h2 class="about-position">Future frontend developer</h2>
-                    <p class="about-description">It is possible to achieve success in life and in the professional
-                        sphere if work is favorite thing. I dream of doing something that brings pleasure.</p>
-                </section>
-                <section>
-                    <h3 class="title" id="work-experience">Work experience</h3>
-                    <h4 class="work-position">restaurant manager, company director</h4>
-                    <p class="period">November 2020 – January 2022 | Ukraine</p>
-                    <ul class="work-list">
-                        <li class="project">Management of the company's activities</li>
-                        <li class="project">Organization of the work of structural divisions, ensuring their interaction
-                        </li>
-                    </ul>
-                    <h4 class="work-position">head of the social security group</h4>
-                    <p class="period">December 2008 – November 2019 | Ukraine</p>
-                    <ul class="work-list">
-                        <li class="project">Providing the consultation of the company's employees on pension issues</li>
-                        <li class="project">Gathering of the package of documents which is necessary for assigning
-                            pensions to employees</li>
-                    </ul>
-                    <h4 class="work-position">the main state social inspector</h4>
-                    <p class="period">August 2002 - December 2008 | Ukraine</p>
-                    <ul class="work-list">
-                        <li class="project">Providing the consultation of citizens with the state social benefits</li>
-                        <li class="project">Gathering of the package of documents which is necessary for the appointment
-                            of state social benefits</li>
-                        <li class="project">Forming of the necessary reporting</li>
-                    </ul>
-                </section>
-                <section>
-                    <h3 class="title" id="education">Education</h3>
-                    <ul class="work-list">
-                        <li class="project">Dneprodzerzhinsk State Technical University</li>
-                        <li class="project">Kharkiv Financial and Economic University</li>
-                    </ul>
-                </section>
-                <section>
-                    <h3 class="title" id="code-example">Code example</h3>
-                    <pre class="code">                      <code class="code">
-            class SmallestIntegerFinder {
-
-             findSmallestInt(args) {
-
-                let smallestElement = args[0];
-                for (const arg of args){
-
-                 if (smallestElement &gt; arg){
-                 smallestElement = arg;
-                }
-              }
-              return smallestElement;
-             }
-            }
-                        </code>
-                    </pre>
-                </section>
-            </div>
-            <aside class="sidebar">
-                <img src="img/photo.jpg" alt="my photo" class="photo">
-                <div class="contacts" id="Contacts">
-                    <h2 class="sidebar-title">Contacts</h2>
-                    <ul class="contact-list">
-                        <li class="contact-list">
-                            <span class="contact-type">phone:</span>
-                            <a href="tel:+380673991826" class="contact-link">+38 067 399 18 26</a>
-                        </li>
-                        <li class="contact-list">
-                            <span class="contact-type">e-mail:</span>
-                            <a href="mailto:irinkah2203@gmail.com" class="contact-link">irinkah2203@gmail.com</a>
-                        </li>
-                    </ul>
-                    <h2 class="sidebar-title" id="tech-skills">Tech skills that I plan to master</h2>
-                    <ul class="tech-skills-list">
-                        <li><span class="tech-skills-item">HTML5</span></li>
-                        <li><span class="tech-skills-item">CSS3</span></li>
-                        <li><span class="tech-skills-item">GIT</span></li>
-                        <li><span class="tech-skills-item">WebPack</span></li>
-                        <li><span class="tech-skills-item">JavaScript</span></li>
-                        <li><span class="tech-skills-item">React.js</span></li>
-                        <li><span class="tech-skills-item">Node.js</span></li>
-                    </ul>
-                    <h2 class="sidebar-title" id="soft-skills">Soft skills</h2>
-                    <ul class="soft-skills-list">
-                        <li><span class="soft-skills-item">Responsibility</span></li>
-                        <li><span class="soft-skills-item">Teamwork</span></li>
-                        <li><span class="soft-skills-item">Scrum</span></li>
-                        <li><span class="soft-skills-item">Agile</span></li>
-                        <li><span class="soft-skills-item">GTD</span></li>
-                    </ul>
-                    <h2 class="sidebar-title" id="languages">Languages</h2>
-                    <ul class="tech-skills-list">
-                        <li><span class="tech-skills-item">Russian: native</span></li>
-                        <li> <span class="tech-skills-item">Ukrainian: native</span></li>
-                        <li> <span class="tech-skills-item">English: A2 Elementary</span></li>
-                    </ul>
-                    <h2 class="sidebar-title" id="project">Project</h2>
-                    <ul class="tech-skills-list">
-                        <li><a href="https://stalwart-swan-3ddda8.netlify.app/" class="project-link">First project</a>
-                        </li>
-                    </ul>
-                </div>
-            </aside>
-        </main>
-        <footer class="footer">
-            <a href="https://github.com/Irinka2203"><img src="img/git.png" alt="logo github" class="logo"></a>
-            <a href="https://rs.school/"><img class="school-link" src="https://rs.school/images/rs_school_js.svg" alt="rs-school"></a>
-            <span class="copyright">© 2022</span>
-        </footer>
-    </div>
+    <div class="CV">CV</div>
 </body>
+
 </html>
